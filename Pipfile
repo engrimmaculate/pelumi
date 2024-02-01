@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+pandas = "*"
+matplotlib = "*"
+pyarrow = "*"
+scipy = "*"
+scikit-learn = "*"
+numpy = "*"
+seaborn = "*"
+shap = "*"
+treeinterpreter = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"

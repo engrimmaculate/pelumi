@@ -1,0 +1,370 @@
+<div>
+  <style scoped>
+      .dataframe tbody tr th:only-of-type {
+          vertical-align: middle;
+      }
+  
+      .dataframe tbody tr th {
+          vertical-align: top;
+      }
+  
+      .dataframe thead th {
+          text-align: right;
+      }
+  </style>
+  <table border="1" class="dataframe">
+    <thead>
+      <tr style="text-align: right;">
+        <th></th>
+        <th>MLA used</th>
+        <th>Train Accuracy</th>
+        <th>Test Accuracy</th>
+        <th>Precision</th>
+        <th>Recall</th>
+        <th>AUC</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>9</th>
+        <td>RandomForestClassifier</td>
+        <td>1.0</td>
+        <td>0.8947</td>
+        <td>0.9375</td>
+        <td>0.833333</td>
+        <td>0.891667</td>
+      </tr>
+      <tr>
+        <th>8</th>
+        <td>GradientBoostingClassifier</td>
+        <td>1.0</td>
+        <td>0.8947</td>
+        <td>0.9375</td>
+        <td>0.833333</td>
+        <td>0.891667</td>
+      </tr>
+      <tr>
+        <th>6</th>
+        <td>BaggingClassifier</td>
+        <td>0.9767</td>
+        <td>0.8684</td>
+        <td>0.882353</td>
+        <td>0.833333</td>
+        <td>0.866667</td>
+      </tr>
+      <tr>
+        <th>13</th>
+        <td>LinearSVC</td>
+        <td>0.8023</td>
+        <td>0.8684</td>
+        <td>0.882353</td>
+        <td>0.833333</td>
+        <td>0.866667</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>RidgeClassifierCV</td>
+        <td>0.8837</td>
+        <td>0.8421</td>
+        <td>0.833333</td>
+        <td>0.833333</td>
+        <td>0.841667</td>
+      </tr>
+      <tr>
+        <th>14</th>
+        <td>DecisionTreeClassifier</td>
+        <td>1.0</td>
+        <td>0.8421</td>
+        <td>0.833333</td>
+        <td>0.833333</td>
+        <td>0.841667</td>
+      </tr>
+      <tr>
+        <th>5</th>
+        <td>AdaBoostClassifier</td>
+        <td>1.0</td>
+        <td>0.8421</td>
+        <td>0.833333</td>
+        <td>0.833333</td>
+        <td>0.841667</td>
+      </tr>
+      <tr>
+        <th>7</th>
+        <td>ExtraTreesClassifier</td>
+        <td>1.0</td>
+        <td>0.8421</td>
+        <td>0.875</td>
+        <td>0.777778</td>
+        <td>0.838889</td>
+      </tr>
+      <tr>
+        <th>12</th>
+        <td>NuSVC</td>
+        <td>0.907</td>
+        <td>0.8158</td>
+        <td>0.761905</td>
+        <td>0.888889</td>
+        <td>0.819444</td>
+      </tr>
+      <tr>
+        <th>16</th>
+        <td>GaussianNB</td>
+        <td>0.8488</td>
+        <td>0.7895</td>
+        <td>0.857143</td>
+        <td>0.666667</td>
+        <td>0.783333</td>
+      </tr>
+      <tr>
+        <th>0</th>
+        <td>LogisticRegressionCV</td>
+        <td>0.8837</td>
+        <td>0.7632</td>
+        <td>0.714286</td>
+        <td>0.833333</td>
+        <td>0.766667</td>
+      </tr>
+      <tr>
+        <th>17</th>
+        <td>KNeighborsClassifier</td>
+        <td>0.7907</td>
+        <td>0.7105</td>
+        <td>0.666667</td>
+        <td>0.777778</td>
+        <td>0.713889</td>
+      </tr>
+      <tr>
+        <th>10</th>
+        <td>GaussianProcessClassifier</td>
+        <td>1.0</td>
+        <td>0.6579</td>
+        <td>0.619048</td>
+        <td>0.722222</td>
+        <td>0.661111</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td>SGDClassifier</td>
+        <td>0.593</td>
+        <td>0.6053</td>
+        <td>0.545455</td>
+        <td>1.0</td>
+        <td>0.625</td>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td>PassiveAggressiveClassifier</td>
+        <td>0.5465</td>
+        <td>0.5789</td>
+        <td>1.0</td>
+        <td>0.111111</td>
+        <td>0.555556</td>
+      </tr>
+      <tr>
+        <th>15</th>
+        <td>BernoulliNB</td>
+        <td>0.5233</td>
+        <td>0.5263</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.5</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td>Perceptron</td>
+        <td>0.4767</td>
+        <td>0.4737</td>
+        <td>0.473684</td>
+        <td>1.0</td>
+        <td>0.5</td>
+      </tr>
+      <tr>
+        <th>11</th>
+        <td>SVC</td>
+        <td>0.5581</td>
+        <td>0.3947</td>
+        <td>0.4</td>
+        <td>0.555556</td>
+        <td>0.402778</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+
+  <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Importance</th>
+      <th>Std</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>SYSTOLIC(mmHg)</th>
+      <td>-0.011850</td>
+      <td>0.039152</td>
+    </tr>
+    <tr>
+      <th>HEIGHT(m)</th>
+      <td>-0.010854</td>
+      <td>0.032239</td>
+    </tr>
+    <tr>
+      <th>DIASTOLIC(mmHg)</th>
+      <td>-0.001911</td>
+      <td>0.003567</td>
+    </tr>
+    <tr>
+      <th>WRIST_CIRCUM(cm)</th>
+      <td>-0.000110</td>
+      <td>0.004044</td>
+    </tr>
+    <tr>
+      <th>GLU_(mmol/L)</th>
+      <td>0.003626</td>
+      <td>0.028310</td>
+    </tr>
+    <tr>
+      <th>BMI(kgm2)</th>
+      <td>0.003800</td>
+      <td>0.004122</td>
+    </tr>
+    <tr>
+      <th>BNP(&lt;100pg/ml)</th>
+      <td>0.004634</td>
+      <td>0.004292</td>
+    </tr>
+    <tr>
+      <th>WEIGHT(kg)</th>
+      <td>0.004955</td>
+      <td>0.003962</td>
+    </tr>
+    <tr>
+      <th>WAIST_CIRCUM(cm)</th>
+      <td>0.024875</td>
+      <td>0.015895</td>
+    </tr>
+    <tr>
+      <th>TnI(24-30pg/ml)</th>
+      <td>0.031650</td>
+      <td>0.022031</td>
+    </tr>
+    <tr>
+      <th>MUAC(cm)</th>
+      <td>0.045376</td>
+      <td>0.032791</td>
+    </tr>
+    <tr>
+      <th>CK-MB(&lt;10U/L)</th>
+      <td>1.231211</td>
+      <td>0.261401</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<div>
+  <style scoped>
+      .dataframe tbody tr th:only-of-type {
+          vertical-align: middle;
+      }
+  
+      .dataframe tbody tr th {
+          vertical-align: top;
+      }
+  
+      .dataframe thead th {
+          text-align: right;
+      }
+  </style>
+  <table border="1" class="dataframe">
+    <thead>
+      <tr style="text-align: right;">
+        <th></th>
+        <th>Importance</th>
+        <th>Std</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>SYSTOLIC(mmHg)</th>
+        <td>-0.011850</td>
+        <td>0.039152</td>
+      </tr>
+      <tr>
+        <th>HEIGHT(m)</th>
+        <td>-0.010854</td>
+        <td>0.032239</td>
+      </tr>
+      <tr>
+        <th>DIASTOLIC(mmHg)</th>
+        <td>-0.001911</td>
+        <td>0.003567</td>
+      </tr>
+      <tr>
+        <th>WRIST_CIRCUM(cm)</th>
+        <td>-0.000110</td>
+        <td>0.004044</td>
+      </tr>
+      <tr>
+        <th>GLU_(mmol/L)</th>
+        <td>0.003626</td>
+        <td>0.028310</td>
+      </tr>
+      <tr>
+        <th>BMI(kgm2)</th>
+        <td>0.003800</td>
+        <td>0.004122</td>
+      </tr>
+      <tr>
+        <th>BNP(&lt;100pg/ml)</th>
+        <td>0.004634</td>
+        <td>0.004292</td>
+      </tr>
+      <tr>
+        <th>WEIGHT(kg)</th>
+        <td>0.004955</td>
+        <td>0.003962</td>
+      </tr>
+      <tr>
+        <th>WAIST_CIRCUM(cm)</th>
+        <td>0.024875</td>
+        <td>0.015895</td>
+      </tr>
+      <tr>
+        <th>TnI(24-30pg/ml)</th>
+        <td>0.031650</td>
+        <td>0.022031</td>
+      </tr>
+      <tr>
+        <th>MUAC(cm)</th>
+        <td>0.045376</td>
+        <td>0.032791</td>
+      </tr>
+      <tr>
+        <th>CK-MB(&lt;10U/L)</th>
+        <td>1.231211</td>
+        <td>0.261401</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
